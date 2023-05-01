@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tce-logo-up {
+    /* padding-left: 10px;
+    bottom: 19.5px; */
+} 
+
+.up-right-link:hover {
+    text-decoration: underline;
+}
+
+.gradient-green {
+    bottom: 0.41%;
+    right: 0.41%;
+    padding: 20px 0 20px 20px;
+    height: 1010px;
+    background: linear-gradient(#5F7161, #6D8B74);
+}
+
+.gradient-black {
+    background: linear-gradient(#1e1e1e, #6D8B74);
+    /* position: relative; */
+    bottom: 280px;
+    right: 8px;
+    padding: 20px;
+    height: 1100px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #d0c9c0;
+}
+
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+    background-color: #f5f5f5; /* Cor de fundo da barra de rolagem */
+  }
+  
+  /* Estilizando o "polegar" da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Cor do "polegar" da barra de rolagem */
+  }
+  
+  /* Mudando a cor da barra de rolagem quando o mouse passa por cima */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Cor do "polegar" da barra de rolagem quando o mouse passa por cima */
+  }
+  
+
+.acess-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 140px;
+    left: 20px;
+    width: 220px;
+    height: 50px;
+    background-color: #1e1e1e;
+    border-radius: 6px;
+    z-index: 9998;
+}
+
+
+
+/* .acess-btn:hover {
+    letter-spacing: 1.5px;
+    background-color: #5F7161;
+    color: #1e1e1e;
+} */
+
+.select-none {
+    user-select: none;
+}
+
+.btn-link-decoration {
+    text-decoration: none;
+    color: white; 
+}
