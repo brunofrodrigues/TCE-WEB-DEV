@@ -13,17 +13,55 @@
     font-size: 62.5%;
 }
 
+header {
+    width: 99%;
+    position: fixed;
+    padding: 2rem 0 2rem 2rem;
+    background-color: #5F7161;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+}  
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+} 
+
+header ul li {
+    list-style: none;
+    margin-top: 0.6rem;
+    margin-right: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.2rem;
+} 
+
+header ul li a {
+    color: #1e1e1e;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* .up-right-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.2rem;
+    color: black;
+    text-decoration: none;
+}  */
+
+
+
 body {
     font-size: 1.6rem;
     background-color: #d0c9c0;
 }
 
-.up-right-link:hover {
-    text-decoration: underline;
-}
-
 .gradient-green {
     position: relative;
+    width: 100%;
     padding: 20rem 0 77rem 0;
     background: linear-gradient(#5F7161, #6D8B74);
 }
@@ -31,14 +69,15 @@ body {
 .acess-btn {
     font-family: 'Open Sans', sans-serif;
     font-size: 2.1rem;
-    position: relative;
-    top: 140px;
+    padding: 1.5rem 4rem;
+    /* position: relative; */
+    /* top: 140px;
     left: 20px;
     width: 220px;
-    height: 50px;
+    height: 50px; */
     background-color: #1e1e1e;
     border-radius: 6px;
-    z-index: 9998;
+    /* z-index: 9998; */
 }
 
 .select-none {
@@ -77,7 +116,7 @@ footer {
 
 
 
-/* Estilizando a barra de rolagem 
+ 
 ::-webkit-scrollbar {
     width: 0.625rem; /* Largura da barra de rolagem 
     background-color: #f5f5f5; /* Cor de fundo da barra de rolagem 
