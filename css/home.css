@@ -1,9 +1,48 @@
 .gradient-green {
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    padding: 15rem 0 77rem 0;
+    padding: 10rem 0 34rem 0;
     background: linear-gradient(#5F7161, #6D8B74);
 }
+
+
+.gg-child-1 {
+    border: 0.1rem solid red;
+    width: 51%;
+}
+
+.gg-child-2 {
+    border: 0.1rem solid red;
+    width: 30%;
+    text-align:left;
+}
+
+.gg-child-3 {
+    border: 0.1rem solid red;
+}
+
+.black-bar-1 {
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 12rem;
+    position: relative;
+
+}
+
+/* #html-logo {
+    width: 40rem;
+
+     position: relative; 
+     left: 23%; 
+     bottom: 23rem; 
+}
+
+#css-logo {
+    margin: 0 0 0 0;
+    width: 25rem;
+} */
 
 .gradient-black {
     background: linear-gradient(#1e1e1e, #6D8B74);
@@ -11,28 +50,9 @@
     height: 120rem;
 }
 
-#black-bar {
-    background-color: #1e1e1e;
-    width: 100%;
-    height: 12rem;
-    position: relative;
-    bottom: 2rem;
 
-}
 
-#html-logo {
-    width: 40rem;
-    position: relative;
-    left: 23%;
-    bottom: 12.5rem;
-}
 
-#css-logo {
-    width: 25rem;
-    position: relative;
-    bottom: 15rem;
-    left: 40%;
-}
 
 #html-align {
     position: absolute;

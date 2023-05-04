@@ -17,6 +17,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -24,7 +25,7 @@
 }
 
 header {
-    width: 99%;
+    width: 100%;
     position: fixed;
     padding: 2rem 0 2rem 5rem;
     background-color: #5F7161;
@@ -68,9 +69,11 @@ body {
 .acess-btn {
     font-family: 'Open Sans', sans-serif;
     font-size: 2.1rem;
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 7rem;
     background-color: #1e1e1e;
+    border-width: 0;
     border-radius: 0.8rem;
+
 }
 
 .select-none {
@@ -85,6 +88,7 @@ body {
 .desc-TCE {
     font-family: 'Open Sans', sans-serif;
     font-size: 2.4rem;
+    color: #1e1e1e;
 }
 
 footer {
