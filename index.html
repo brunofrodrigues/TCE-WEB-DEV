@@ -18,16 +18,111 @@
         
         .desc-TCE {
             font-family: 'Open Sans', sans-serif;
+            font-size: 2.4rem;
         }
+
+        #black-bar {
+            background-color: #1e1e1e;
+            width: 100%;
+            height: 12rem;
+            position: relative;
+            bottom: 2rem;
+
+        }
+
+        #html-logo {
+            width: 40rem;
+            position: relative;
+            left: 23%;
+            bottom: 12.5rem;
+        }
+
+        #css-logo {
+            width: 25rem;
+            position: relative;
+            bottom: 15rem;
+            left: 40%;
+        }
+
+        #html-align {
+            position: absolute;
+            left: 43rem;
+            top: 16rem;
+            text-align: center;
+            display: inline-block;
+            width: 21%;
+        }
+
+        #css-align {
+            position: absolute;
+            display: inline-block;
+            width: 19%;
+            text-align: center;
+            left: 111.6rem;
+            top: 16rem;
+        }
+
+        #btn-html-align {
+            margin-top: 60rem;
+            margin-left: 52.7rem;
+        }
+
+        #btn-css-align {
+            position: relative;
+            left: 120rem;
+            /* margin-left: 120rem; */
+            bottom: 6.2rem;
+        }
+
+        #black-bar-2 {
+            background-color: #1e1e1e;
+            width: 100%;
+            height: 100rem;
+        }
+
+        #btn-about {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 2.1rem;
+            padding: 1.5rem 4rem;
+            border-radius: 0.8rem;
+            background-color: #5F7176;
+        }
+
+        .desc-tools {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 2.4rem;
+            background-color: #d0c9c0;
+            border-radius: 1rem;
+            padding: 3rem;
+            /* padding: 2rem 4rem 6rem 4rem; */
+        }
+
+        #div-align {
+            width: 25%;
+        }
+
+        /* #btn-about a {
+
+            color: #D9D9D0;
+        } */
+
+
+        /* #web-background {
+            width: 90%;
+            overflow-x: hidden;
+            position: absolute;
+            margin: 20rem 0 0 20rem;
+
+        } */
         
-        #web-background {
+        /* #web-background {
             overflow: hidden;
             font-family: 'League Spartan', sans-serif;
-            font-size: 70rem;
+            font-size: 40rem;
             position: absolute;
-            /* margin: 20rem 0 0 20rem; */
+            margin: 29rem 0 0 70rem;
             opacity: 0.2;
-        }
+        } */
         
         /* 
 
@@ -43,46 +138,11 @@
             overflow: hidden;
         }
 
-
-
-
-
-        .black-bar {
-            background-color: #1e1e1e;
-            width: 2000px;
-            height: 100px;
-
-        }
-
-        .black-bar-2 {
-            background-color: #1e1e1e;
-            width: 2000px;
-            height: 700px;
-        }
-
-        #html-logo {
-            width: 400px;
-            height: 400px;
-        }
-
-        #css-logo {
-            width: 251px;
-            height: 350px;
-        }
-
         .tce-logo-down {
             height: 80px;
         }
 
-        #html-align {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 25px;
-        }
 
-        #css-align {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 25px;
-        }
 
         #site-html-align {
         }
@@ -96,7 +156,7 @@
 <body>
 
      <header>
-            <img  class="tce-logo-up" height="50rem" src="imgs/tcelogo (1).png">
+            <img  class="tce-logo-up select-none" height="50rem" src="assets/imgs/tcelogo (1).png">
 
         <ul>
             <li>        
@@ -111,71 +171,140 @@
 
     <main>
         <div class="gradient-green">
-            <h2 style="color: #1e1e1e; position: absolute; margin: 9rem 0 0 2.6rem">Desenvolvimento WEB</h2>
+            <h2 style="color: #1e1e1e; position: absolute; margin: 13rem 0 0 5.2rem">Desenvolvimento WEB</h2>
     
-            <p class="desc-TCE" style="position: absolute; margin: 17rem 0 0 2.6rem; font-size: 4rem;">Encontre aqui várias referências de HTML,<br>
+            <p class="desc-TCE" style="position: absolute; margin: 21rem 0 0 5.4rem;">Encontre aqui várias referências de HTML,<br>
             de fácil acesso e grátis.</p>
     
-            <button class="acess-btn select-none" style="position: absolute; margin: 34rem 0 0 2.9rem; z-index: 9997;">
+            <button class="acess-btn select-none" style="position: absolute; margin: 34rem 0 0 5.5rem; z-index: 9997;">
                 <a class="btn-link-decoration" href="#">Referências</a>
             </button>
+
+            <!-- <img id="web-background" src="assets/imgs/WEB.png" alt="Imagem da escrita WEB de fundo"> -->
             
             
-            <h1 id="web-background" class="select-none" style="position: absolute;">WEB</h1>
+            <!-- <h1 id="web-background" class="select-none" style="position: absolute;">WEB</h1> -->
               
         </div>
-    
-        <div class="body">
-            <img id="html-logo" src="imgs/html-logo.png" alt="Logo do CSS">
-            <img id="css-logo" src="imgs/css-logo.png" alt="Logo do CSS">
-    
-           
-    
-            <p id="html-align" style="text-align: center;">
-                HTML5 é uma Markup Language <br>
-                usada para criar e estruturar <br>
-                conteúdo em uma página da web. <br>
-                Ele define a estrutura da página, <br>
-                incluindo textos, imagens, links e <br>
-                outros elementos. O HTML é a <br>
-                base do desenvolvimento web e é <br>
-                interpretado pelos navegadores <br>
-                para exibir o conteúdo de uma <br>
-                página.
-            </p>
-    
-            <p id="css-align" style="text-align: center;">
-                CSS3 é uma Style Language que <br>
-                define a aparência visual de <br>
-                uma página WEB. Ele separa o <br>
-                conteúdo da apresentação e é <br>
-                usado com o HTML para criar <br>
-                layouts personalizados e estilos <br>
-                visuais. As regras de estilo do <br>
-                CSS especificam a aparência <br>
-                dos elementos, como cores e <br>
-                posições.
-            </p>
-    
-            <button id="site-html-align" class="acess-btn"><a href="#">Site Oficial</a></button>
-            <button id="site-css-align" class="acess-btn"><a href="#">Site Oficial</a></button>
-    
-            <h1 id="language-background" class="select-none">Linguagem</h1>
-    
-    
-    
+
+        <div id="black-bar">
+            <img id="html-logo" src="assets/imgs/html-logo.png" alt="Logo do HTML">
+            <img id="css-logo" src="assets/imgs/css-logo.png" alt="Logo do CSS">
         </div>
+
+        <div style="background-color: #d0c9c0; width: 100%; height: 80rem;">
+            <div style="position: relative;">
+                <p class="desc-TCE" id="html-align">
+                    HTML5 é uma Markup Language
+                    usada para criar e estruturar
+                    conteúdo em uma página da web.
+                    Ele define a estrutura da página,
+                    incluindo textos, imagens, links e
+                    outros elementos. O HTML é a
+                    base do desenvolvimento web e é
+                    interpretado pelos navegadores
+                    para exibir o conteúdo de uma
+                    página.
+                </p>
+        
+                <p class="desc-TCE" id="css-align">
+                    CSS3 é uma Style Language que
+                    define a aparência visual de
+                    uma página WEB. Ele separa o
+                    conteúdo da apresentação e é
+                    usado com o HTML para criar
+                    layouts personalizados e estilos
+                    visuais. As regras de estilo do
+                    CSS especificam a aparência
+                    dos elementos, como cores e
+                    posições.
+                </p>
+        
+                <button id="btn-html-align" class="acess-btn select-none"><a class="btn-link-decoration" href="#">Site Oficial</a></button>
+                
+                <div style="position: absolute;">
+                    <button id="btn-css-align" class="acess-btn select-none"><a class="btn-link-decoration" href="#">Site Oficial</a></button>
+                </div>
+                
+        
+                <!-- <h1 id="language-background" class="select-none">Linguagem</h1> -->
+        
+        
+        
+            </div>
+        </div>
+
+        <div id="black-bar-2">
+            <div>
+                <h2 style="color: #d0c9c0; padding: 13rem 0 0 5.5rem;">O nosso projeto</h2>
+                <!-- <h2 style=" margin: 15rem 0 0 5.4rem; color: #d0c9c0;">O nosso projeto</h2> -->
+            </div>
+            
+            <div style="width: 30%; margin: 6rem 0 0 5.5rem;">
+                <p class="desc-TCE" style="color: #d0c9c0;">Somos uma equipe de alunos
+                    compromissada com o nosso trabalho,
+                    buscamos acima de tudo
+                    que o usuário tenha a melhor
+                    experiência com o nosso website.
+                </p>
+            </div>
+
+            <div>
+                <button id="btn-about" style="margin: 10rem 0 0 5.5rem;"><a class="btn-link-decoration" href="#">Nossa equipe</a></button>
+            </div>
+
+                
+
+        </div>
+
+        <div class="gradient-black">
+            <h2 style="color: #d0c9c0; text-align: center;">Programas utilizados por aqui</h2>
+
+            <div class="desc-tools" style="width: 50%; margin: 8rem 0 0 45rem; position: relative;">
+                <img src="assets/imgs/figma.png" alt="Ícone do Figma" width="10%" style="position: absolute; right: 95rem; bottom: 8.8rem;">
+                <p style="text-align: center;">A plataforma Figma é um software de design de interface do usuário (UI)
+                   e experiência do usuário (UX) baseado na nuvem. Graças a ele pudemos
+                   desenhar o nosso site.
+                </p>
+
+               
+               
+
+            </div>
+<!-- 
+            <div style="position: relative;">
+                <button class="acess-btn select-none"><a class="btn-link-decoration" href="">Site Oficial</a></button>
+            </div> -->
+
+
+
+            <!-- <div style="position: relative;">
+                
+            </div>
+
+            <div id="div-align">
+                <div class="desc-tools">
+
+                </div>
+
+                <div class="desc-tools">
+
+                </div>
+            </div> -->
+        </div>
+
+
+        
+        
     </main>
 
-    
-
-    <footer>
+    <!-- <footer>
         <div class="content">
-            <img class="tce-logo-down" src="imgs/tcelogoup.png">
+            <img class="tce-logo-down" src="assets/imgs/tcelogoup.png">
             <h3 style="text-align: center; color: white; margin-top: 30px;">Referências</h3>
             <h3 style="text-align: center; color: white; margin-top: 20px;">Sobre</h3>
         </div>
-    </footer>
+    </footer> -->
    
 </body>
 </html>

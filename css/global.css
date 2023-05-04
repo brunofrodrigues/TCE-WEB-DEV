@@ -3,6 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&display=swap');
 
+::-webkit-scrollbar {
+    width: 1rem; /* Largura da barra de rolagem */
+    background-color: #5F7161; /* Cor de fundo da barra de rolagem */
+  }
+  
+  /* Estilizando o "polegar" da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #1e1e1e; /* Cor do "polegar" da barra de rolagem */
+  }
+  
+
+
 
 * {
     margin: 0;
@@ -16,7 +29,7 @@
 header {
     width: 99%;
     position: fixed;
-    padding: 2rem 0 2rem 2rem;
+    padding: 2rem 0 2rem 5rem;
     background-color: #5F7161;
     display: flex;
     justify-content: space-between;
@@ -31,7 +44,7 @@ header ul {
 header ul li {
     list-style: none;
     margin-top: 0.6rem;
-    margin-right: 3rem;
+    margin-right: 9rem;
     font-family: 'Open Sans', sans-serif;
     font-size: 2.2rem;
 } 
@@ -62,9 +75,11 @@ body {
 .gradient-green {
     position: relative;
     width: 100%;
-    padding: 20rem 0 77rem 0;
+    padding: 15rem 0 77rem 0;
     background: linear-gradient(#5F7161, #6D8B74);
 }
+
+
 
 .acess-btn {
     font-family: 'Open Sans', sans-serif;
@@ -76,7 +91,7 @@ body {
     width: 220px;
     height: 50px; */
     background-color: #1e1e1e;
-    border-radius: 6px;
+    border-radius: 0.8rem;
     /* z-index: 9998; */
 }
 
@@ -86,7 +101,20 @@ body {
 
 .btn-link-decoration {
     text-decoration: none;
-    color: white; 
+    color: #EEE9DA; 
+}
+
+footer {
+    background-color: #1e1e1e;
+    padding: 1.875rem;
+    display: flex;
+    justify-content: center;
+}
+
+.gradient-black {
+    background: linear-gradient(#1e1e1e, #6D8B74);
+    padding: 1.25rem;
+    height: 120rem;
 }
 
 
@@ -98,21 +126,9 @@ body {
 
 
 
-.gradient-black {
-    background: linear-gradient(#1e1e1e, #6D8B74);
-    /* position: relative; 
-    bottom: 17.5rem;
-    right: 0.5rem;
-    padding: 1.25rem;
-    height: 68.75rem;
-}
 
-footer {
-    background-color: #1e1e1e;
-    padding: 1.875rem;
-    display: flex;
-    justify-content: center;
-}
+
+
 
 
 
@@ -132,15 +148,8 @@ footer {
     background-color: #555; /* Cor do "polegar" da barra de rolagem quando o mouse passa por cima 
   }
   
-
-
-
-
-
 /* .acess-btn:hover {
     letter-spacing: 1.5px;
     background-color: #5F7161;
     color: #1e1e1e;
 } 
-
-
