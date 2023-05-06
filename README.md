@@ -44,4 +44,3 @@
 <p>
 Equipe de alunos do Intituto Federal do Norte de Minas Gerais
 </p>
-

@@ -1,0 +1,73 @@
+.gg-child-1 {
+    width: 51%;
+}
+
+.gg-child-2 {
+    border: 0.1rem solid red;
+    width: 30%;
+    text-align:left;
+}
+
+.gradient-green-about {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem 0 8rem 0;
+    background: linear-gradient(#5F7161, #6D8B74);
+}
+
+.abouttitle {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14rem;
+}
+
+.standartsubtitlespages {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.8rem;
+    color: #1e1e1e;
+    padding: 0 0 3em 0;
+}
+
+.black-background-container {
+    background-color: #1e1e1e;
+    width: 100%;
+    display: flex;
+}
+
+.green-background-bar {
+    background-color:#5F7161;
+    width: 100%;
+    display: flex;
+}
+
+.team-photo-green {
+    border-radius: 100%;
+    border-color: #5F7161;
+    border-style: solid;
+    border-width: 1.5em;
+    margin: 2em 4em;
+}
+
+.team-photo-black {
+    border-radius: 100%;
+    border-color: #1e1e1e;
+    border-style: solid;
+    border-width: 1.5em;
+    margin: 2em 4em;
+    float: right;
+}
+
+h4 {
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 270%;
+    padding: 1.5em 0 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.4rem;
+    color: white;
+    padding: 4% 2% 0 0;
+}
