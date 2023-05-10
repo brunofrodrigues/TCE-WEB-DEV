@@ -1,24 +1,84 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Exemplo de página</title>
-    
-    <style>
-    body{
-    background-color: #1E1E1E;}
-      </style>
-  </head>
-  
-  <body>
-    
-    <h3 style= "color: white; text-align: center;">Definições de uso</h3>
-    
-    <p style="background-color: white; margin: 20px; padding: 30px;">A tag &lttitle&gt define o título do documento. O título deve ser somente texto e é mostrado na barra de título do navegador ou na aba da página.</p>
-    
-    <h3 style="background-color: #5F7161; color: white; text-align: center; margin: 0; padding: 0px;"><br>Exemplo</h3>
-    
-    <div style="background-color: #5F7161; margin: 0px; padding: 20px;">
-      <pre style="background-color: white;">
+<html lang="pt-BR">
+<head>
+  <title>Tag Title</title>
+  <style>
+    :root {
+      --rem: 16px;
+    }
+
+    body {
+      background-color: #1E1E1E;
+      font-size: 1rem;
+    }
+
+    h3 {
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      background-color: white;
+      margin: 1.25rem;
+      padding: 1.875rem;
+    }
+
+    div.example {
+      background-color: #5F7161;
+      margin: 0;
+      padding: 1.25rem;
+    }
+
+    pre {
+      background-color: white;
+      margin: 0;
+      padding: 1.25rem;
+    }
+
+    code {
+      color: black;
+    }
+
+    div.attributes {
+      text-align: center;
+    }
+
+    table {
+      border: 0.25rem solid #1E1E1E;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin: 0 auto;
+    }
+
+    th {
+      color: white;
+    }
+
+    td {
+      border: 0.25rem solid #1E1E1E;
+      background-color: white;
+    }
+
+    button {
+      margin-top: 1.25rem;
+    }
+  </style>
+  <link rel="stylesheet" href="css/global.css">
+</head>
+
+<body>
+
+  <h3>Definições de uso</h3>
+
+  <p>A tag &lt;title&gt; define o título do documento. O
+    título deve ser somente texto e é mostrado na barra de título do navegador ou na aba da página.</p>
+
+  <h3>Exemplo</h3>
+
+  <div class="example">
+    <pre>
         <code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -30,37 +90,32 @@
   &lt;/body&gt;
 &lt;/html&gt;
       </code></pre>
+  </div>
+
+  <div>
+    <h3>Atributos Padrões</h3>
+
+    <div class="attributes">
+      <table>
+        <tr>
+          <th>Atributo</th>
+          <th>Valor</th>
+          <th>Descrição</th>
+        </tr>
+        <tr>
+          <td>Coluna 1, Linha 1</td>
+          <td>Coluna 2, Linha 1</td>
+          <td>Coluna 3, Linha 1</td>
+        </tr>
+        <tr>
+          <td>Coluna 1, Linha 2</td>
+          <td>Coluna 2, Linha 2</td>
+          <td>Coluna 3, Linha 2</td>
+        </tr>
+        <tr>
+          <td>Coluna 1, Linha 3</td>
+          <td>Coluna 2, Linha 3</td>
+          <td>Coluna 3, Linha 3</td>
+        </tr>
+      </table>
     </div>
-    
-    <div>
-      <h3 style="text-align: center; color: white; padding: 10px;">Atributos Padrões</h3>
-      
-<div style="text-align: center;">
-<table style="border: 4px solid #1E1E1E; border-collapse: separate; border-spacing: 0px;">
-  <tr>
-    <th style="color:white;">Atributo</th>
-    <th style="color:white;">Valor</th>
-    <th style="color:white;">Descrição</th>
-  </tr>
-  <tr>
-    <td style="border: 4px solid #1E1E1E; background-color: white;">Coluna 1, Linha 1</td>
-    <td style="border: 4px solid #1E1E1E; background-color: white;">Coluna 2, Linha 1</td>
-    <td style="border: 4px solid #1E1E1E; background-color: white;">Coluna 3, Linha 1</td>
-  </tr>
-  <tr>
-    <td style="border: 4px solid #1E1E1E; background-color: white;">Coluna 1, Linha 2</td>
-    <td style="border: 4px solid #1E1E1E; background-color: white;">Coluna 2, Linha 2</td>
-    <td style="border: 4px solid #1E1E1E; background-color: white;">Coluna 3, Linha 2</td>
-  </tr>
-  <tr>
-    <td style="border: 4px solid #1E1E1E; background-color: white;">Coluna 1, Linha 3</td>
-    <td style="border: 4px solid #1E1E1E; background-color: white;">Coluna 2, Linha 3</td>
-    <td style="border: 4px solid #1E1E1E; background-color: white;">Coluna 3, Linha 3</td>
-  </tr>
-</table>
-    </div>
-    <div style="text-align:center;">
-     <br> <button>Atributos Globais</button>
-        </div>
-  </body>
-</html>
