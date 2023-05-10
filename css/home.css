@@ -109,36 +109,157 @@ div.gg-child-2 {
 .bb2-child-1 {
     width: 50%;
     height: 100%;
-    border: 0.1rem solid red;
+    /* border: 0.1rem solid red; */
 }
 
 .bb2-child-1-1 {
-    border: 0.1rem solid red;
+    /* border: 0.1rem solid red; */
     width: 80%;
 
 }
 
+div.bb2-child-1-1 h2 {
+    color: #d0c9c0;
+    padding: 13rem 0 0 5.5rem;
+}
+
 div.bb2-child-1-1 p {
+    color: #d0c9c0;
     margin: 5rem 0 0 5.2rem;
 }
 
 div.bb2-child-1-1 button {
     margin: 5rem 0 0 5.2rem;
+}
 
+#btn-about {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.1rem;
+    padding: 1.5rem 7rem;
+    background-color: #1e1e1e;
+    border-width: 0;
+    border-radius: 0.8rem;
+    background-color: #5F7176;
 }
 
 .bb2-child-2 {
     width: 50%;
     height: 100%;
-    border: 0.1rem solid blue;
+    /* border: 0.1rem solid blue; */
 }
 
+
+/*HTML DE FOTOS AQ*/
+
+
+
+
+
 .gradient-black {
-    border: 0.1rem solid red;
+    display: flex;
+    flex-direction: column;
+    /* border: 0.1rem solid red; */
     background: linear-gradient(#1e1e1e, #6D8B74);
-    padding: 1.25rem;
+    /* padding: 1.25rem; */
     height: 120rem;
 }
+
+.gb-child-1 {
+    /* border: 0.1rem solid red; */
+
+}
+
+div.gb-child-1 h2 {
+    color: #d0c9c0;
+    text-align: center;
+}
+
+
+
+.gb-child-1-2 {
+    /* border: 0.1rem solid red; */
+}
+
+.gb-img-figma img {
+    width: 5%;
+    transform: translate(41.5rem, 15rem);
+}
+
+.desc-tools {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.4rem;
+    background-color: #d0c9c0;
+    border-radius: 1rem;
+    padding: 3rem;
+    /* padding: 2rem 4rem 6rem 4rem; */
+}
+
+div.desc-tools {
+    width: 50%; 
+    margin: 8rem 0 0 45rem;
+    text-align: center;
+}
+
+.gb-btn-acess-1 {
+    transform: translate(117rem, -3rem);
+
+}
+
+.gb-child-2 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.gb-child-2-2 {
+    width: 100%;
+    /* width: 70%; */
+    /* border: 0.1rem solid red; */
+}
+
+/* .gb-img-vscode {
+    margin: 0 0 0 20rem;
+
+} */
+
+.gb-child-2-2 img {
+    transform: translate(64rem, -4rem);
+    /* border: 0.1rem solid blue; */
+    width: 10%;
+}
+
+.desc-tools-2 {
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.4rem;
+    background-color: #d0c9c0;
+    border-radius: 1rem;
+    padding: 3rem;
+    
+}
+
+div.gb-child-2-2 .desc-tools-2 {
+    text-align: center;
+    /* border: 0.1rem solid blue; */
+    margin-left: 47.3%;
+    height: 46rem;
+}
+
+div.desc-tools-2 button {
+    margin: 3rem 0 0 0;
+
+}
+
+/* .gb-child-2-3 {
+    border: 0.1rem solid yellow;
+    width: 5%;
+} */
+
+/* .gb-child-2 p {
+    text-align: center;
+    width: 45%;
+} */
+
 
 
 
@@ -166,24 +287,9 @@ div.bb2-child-1-1 button {
 
 
 
-#btn-about {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.1rem;
-    padding: 1.5rem 7rem;
-    background-color: #1e1e1e;
-    border-width: 0;
-    border-radius: 0.8rem;
-    background-color: #5F7176;
-}
 
-.desc-tools {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.4rem;
-    background-color: #d0c9c0;
-    border-radius: 1rem;
-    padding: 3rem;
-    /* padding: 2rem 4rem 6rem 4rem; */
-}
+
+
 
 #div-align {
     width: 25%;
