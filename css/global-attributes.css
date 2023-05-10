@@ -1,0 +1,8 @@
+.gradient-green-glob-attrib {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem 0 8rem 0;
+    background: linear-gradient(#5F7161, #6D8B74);
+}
