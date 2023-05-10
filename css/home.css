@@ -9,42 +9,132 @@
 
 
 .gg-child-1 {
-    border: 0.1rem solid red;
+    /* border: 0.1rem solid red; */
     width: 51%;
 }
 
+div.gg-child-1 {
+    color: #1e1e1e; 
+    margin: 20rem 0 0 5.2rem;
+}
+
 .gg-child-2 {
-    border: 0.1rem solid red;
+    /* border: 0.1rem solid red; */
     width: 30%;
     text-align:left;
 }
 
+div.gg-child-2 {
+    margin: 2rem 0 0 5.2rem;
+}
+
 .gg-child-3 {
-    border: 0.1rem solid red;
+    margin: 2rem 0 0 5.2rem;
+    
 }
 
 .black-bar-1 {
+    display: flex;
+    flex-direction: row;
     background-color: #1e1e1e;
     width: 100%;
     height: 12rem;
-    position: relative;
+    /* position: relative; */
 
 }
 
-/* #html-logo {
-    width: 40rem;
+.bb1-child-1 {
+    /* border: 0.1rem solid red; */
+    margin: 0 0 0 38rem;
 
-     position: relative; 
-     left: 23%; 
-     bottom: 23rem; 
+
+}
+
+.bb1-child-2 {
+    /* border: 0.1rem solid red; */
+    margin: 0 0 0 40rem;
+
+
+}
+
+#html-logo {
+    width: 40rem; 
+    transform: translate(0, -9rem);
 }
 
 #css-logo {
-    margin: 0 0 0 0;
     width: 25rem;
-} */
+    transform: translate(0, -6.3rem);
+}
+
+.desc-html-css {
+    display: flex;
+    flex-direction: row;
+    height: 74rem;
+}
+
+.dhc-child-1 {
+    width: 20%;
+    /* height: 60%; */
+    text-align: center;
+    /* border: 0.1rem solid red; */
+    margin: 18rem 0 0 39rem;
+
+}
+
+.dhc-child-2 {
+    width: 19%;
+    /* height: 50%; */
+    text-align: center;
+    /* border: 0.1rem solid red; */
+    margin: 18rem 0 0 35rem;
+
+}
+
+#btn-html-align {
+    margin: 5rem 0 0 0;
+} 
+
+#btn-css-align {
+    margin: 5rem 0 0 0;
+} 
+
+#black-bar-2 {
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 100rem;
+    display: flex;
+}
+
+.bb2-child-1 {
+    width: 50%;
+    height: 100%;
+    border: 0.1rem solid red;
+}
+
+.bb2-child-1-1 {
+    border: 0.1rem solid red;
+    width: 80%;
+
+}
+
+div.bb2-child-1-1 p {
+    margin: 5rem 0 0 5.2rem;
+}
+
+div.bb2-child-1-1 button {
+    margin: 5rem 0 0 5.2rem;
+
+}
+
+.bb2-child-2 {
+    width: 50%;
+    height: 100%;
+    border: 0.1rem solid blue;
+}
 
 .gradient-black {
+    border: 0.1rem solid red;
     background: linear-gradient(#1e1e1e, #6D8B74);
     padding: 1.25rem;
     height: 120rem;
@@ -54,7 +144,7 @@
 
 
 
-#html-align {
+/* #html-align {
     position: absolute;
     left: 43rem;
     top: 16rem;
@@ -70,29 +160,18 @@
     text-align: center;
     left: 111.6rem;
     top: 16rem;
-}
+} */
 
-#btn-html-align {
-    margin-top: 60rem;
-    margin-left: 52.7rem;
-}
 
-#btn-css-align {
-    position: relative;
-    left: 120rem;
-    bottom: 6.2rem;
-}
 
-#black-bar-2 {
-    background-color: #1e1e1e;
-    width: 100%;
-    height: 100rem;
-}
+
 
 #btn-about {
     font-family: 'Open Sans', sans-serif;
     font-size: 2.1rem;
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 7rem;
+    background-color: #1e1e1e;
+    border-width: 0;
     border-radius: 0.8rem;
     background-color: #5F7176;
 }
