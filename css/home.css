@@ -1,5 +1,4 @@
 .gradient-green {
-    /* position: relative; */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -19,6 +18,7 @@ div.gg-child-1 {
 }
 
 .gg-child-2 {
+    color: #1e1e1e;
     /* border: 0.1rem solid red; */
     width: 30%;
     text-align:left;
@@ -34,86 +34,144 @@ div.gg-child-2 {
 }
 
 .black-bar-1 {
+    /* border: 0.1rem solid red; */
     display: flex;
     flex-direction: row;
     background-color: #1e1e1e;
     width: 100%;
     height: 12rem;
-    /* position: relative; */
-
 }
 
 .bb1-child-1 {
-    /* border: 0.1rem solid red; */
-    margin: 0 0 0 38rem;
-
-
+    transform: translate(0, -8rem);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* border: 0.1rem solid blue; */
 }
 
-.bb1-child-2 {
+.bb1-child-1-2 {
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     /* border: 0.1rem solid red; */
-    margin: 0 0 0 40rem;
-
-
+    /* width: 50%; */
 }
 
 #html-logo {
-    width: 40rem; 
-    transform: translate(0, -9rem);
+    width: 40%;
+}
+
+.html-align {
+    /* border: 0.1rem solid red; */
+    width: 40%;
+    margin: 0 auto;
+}
+
+.bb1-child-2 {
+    transform: translate(0, -5.5rem);
+    /* border: 0.1rem solid yellow; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.bb1-child-2-2 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* border: 0.1rem solid red; */
+
 }
 
 #css-logo {
-    width: 25rem;
-    transform: translate(0, -6.3rem);
+    width: 25%;
 }
 
-.desc-html-css {
-    display: flex;
-    flex-direction: row;
-    height: 74rem;
-}
-
-.dhc-child-1 {
-    width: 20%;
-    /* height: 60%; */
-    text-align: center;
+.css-align {
     /* border: 0.1rem solid red; */
-    margin: 18rem 0 0 39rem;
-
+    width: 38%;
+    margin: 0 auto;
+    margin-top: 2rem;
 }
 
-.dhc-child-2 {
-    width: 19%;
-    /* height: 50%; */
-    text-align: center;
-    /* border: 0.1rem solid red; */
-    margin: 18rem 0 0 35rem;
+.html-css-btn-site {
+    margin: 5rem 0 0 0;
 
 }
-
-#btn-html-align {
-    margin: 5rem 0 0 0;
-} 
-
-#btn-css-align {
-    margin: 5rem 0 0 0;
-} 
 
 #black-bar-2 {
+    /* border: 0.1rem solid red; */
+    margin-top: 75rem;
     background-color: #1e1e1e;
     width: 100%;
     height: 100rem;
     display: flex;
+    flex-direction: row;
 }
 
 .bb2-child-1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* border: 0.1rem solid blue; */
+}
+
+.bb2-child-1-2 {
+    margin: 5rem 0 0 5.2rem;
+    width: 70%;
+    /* border: 0.1rem solid red; */
+    color: #d0c9c0;
+}
+
+.bb2-child-1-3 {
+    text-align:left;
+    margin: 5rem 0 0 5.2rem;
+    width: 45%;
+    /* border: 0.1rem solid red; */
+    color: #d0c9c0;
+
+}
+
+.btn-about {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.1rem;
+    padding: 1.5rem 7rem;
+    margin-top: 6rem;
+    background-color: #1e1e1e;
+    border-width: 0;
+    border-radius: 0.8rem;
+    background-color: #5F7176;
+}
+
+.bb2-child-2 {
+    width: 50%;
+    /* border: 0.1rem solid yellow; */
+}
+
+.img-about {
+    width: 25%;  
+}
+
+.img-div {
+    /* border: 0.1rem solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem 0 5rem 0;
+}
+
+
+
+/* .bb2-child-1 {
     width: 50%;
     height: 100%;
-    /* border: 0.1rem solid red; */
+    border: 0.1rem solid red;
 }
 
 .bb2-child-1-1 {
-    /* border: 0.1rem solid red; */
+    border: 0.1rem solid red;
     width: 80%;
 
 }
@@ -145,8 +203,73 @@ div.bb2-child-1-1 button {
 .bb2-child-2 {
     width: 50%;
     height: 100%;
-    /* border: 0.1rem solid blue; */
+    border: 0.1rem solid blue;
+} */
+
+/* }
+
+.bb1-child-1 {
+    width: 50%;
+    border: 0.1rem solid red;
+    margin: 0 0 0 38rem;
+
+
 }
+
+#html-align {
+    text-align: center;
+}
+
+.bb1-child-2 {
+    border: 0.1rem solid red;
+    margin: 0 0 0 40rem;
+
+
+}
+
+#html-logo {
+    width: 130%; 
+    transform: translate(0, -9rem);
+}
+
+#css-logo {
+    width: 60%;
+    transform: translate(13rem, -6.3rem);
+}
+
+.desc-html-css {
+    display: flex;
+    flex-direction: row;
+    height: 74rem;
+}
+
+.dhc-child-1 {
+    width: 20%;
+    height: 60%;
+    text-align: center;
+    border: 0.1rem solid red;
+    margin: 18rem 0 0 39rem;
+
+}
+
+.dhc-child-2 {
+    width: 19%;
+    height: 50%;
+    text-align: center;
+    border: 0.1rem solid red;
+    margin: 18rem 0 0 35rem;
+
+}
+
+#btn-html-align {
+    margin: 5rem 0 0 0;
+} 
+
+#btn-css-align {
+    margin: 5rem 0 0 0;
+}  */
+
+
 
 
 /*HTML DE FOTOS AQ*/
@@ -155,17 +278,17 @@ div.bb2-child-1-1 button {
 
 
 
-.gradient-black {
+/* .gradient-black {
     display: flex;
     flex-direction: column;
-    /* border: 0.1rem solid red; */
+    border: 0.1rem solid red;
     background: linear-gradient(#1e1e1e, #6D8B74);
-    /* padding: 1.25rem; */
+    padding: 1.25rem;
     height: 120rem;
 }
 
 .gb-child-1 {
-    /* border: 0.1rem solid red; */
+    border: 0.1rem solid red;
 
 }
 
@@ -177,7 +300,7 @@ div.gb-child-1 h2 {
 
 
 .gb-child-1-2 {
-    /* border: 0.1rem solid red; */
+    border: 0.1rem solid red;
 }
 
 .gb-img-figma img {
@@ -191,7 +314,7 @@ div.gb-child-1 h2 {
     background-color: #d0c9c0;
     border-radius: 1rem;
     padding: 3rem;
-    /* padding: 2rem 4rem 6rem 4rem; */
+    padding: 2rem 4rem 6rem 4rem;
 }
 
 div.desc-tools {
@@ -213,18 +336,18 @@ div.desc-tools {
 
 .gb-child-2-2 {
     width: 100%;
-    /* width: 70%; */
-    /* border: 0.1rem solid red; */
-}
+    width: 70%;
+    border: 0.1rem solid red;
+} */
 
 /* .gb-img-vscode {
     margin: 0 0 0 20rem;
 
 } */
 
-.gb-child-2-2 img {
+/* .gb-child-2-2 img {
     transform: translate(64rem, -4rem);
-    /* border: 0.1rem solid blue; */
+    border: 0.1rem solid blue;
     width: 10%;
 }
 
@@ -240,7 +363,7 @@ div.desc-tools {
 
 div.gb-child-2-2 .desc-tools-2 {
     text-align: center;
-    /* border: 0.1rem solid blue; */
+    border: 0.1rem solid blue;
     margin-left: 47.3%;
     height: 46rem;
 }
@@ -248,7 +371,7 @@ div.gb-child-2-2 .desc-tools-2 {
 div.desc-tools-2 button {
     margin: 3rem 0 0 0;
 
-}
+} */
 
 /* .gb-child-2-3 {
     border: 0.1rem solid yellow;
@@ -291,6 +414,6 @@ div.desc-tools-2 button {
 
 
 
-#div-align {
+/* #div-align {
     width: 25%;
-}
+} */
