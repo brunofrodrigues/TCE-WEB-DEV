@@ -93,12 +93,30 @@ tbody>tr{
 
 .primeira{
     float: right;
-    margin-right: 300px;
+    /*margin-right: 300px;*/
 
 } 
 
 .segundo{
-    margin-left: 300px;
+    /*margin-left: 300px;*/
+    margin-top: .5rem;
+}
+.conteudo{
+    border:white thin solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: space-around;*/
+}
+.texto{
+    border:white thin solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.navegadores{
+    
 }
 
     
