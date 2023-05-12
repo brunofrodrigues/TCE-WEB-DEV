@@ -91,7 +91,8 @@ body {
 
 footer {
     background-color: #1e1e1e;
-    padding: 1.875rem;
+    /* padding: 1.875rem; */
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
