@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/tags.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tag &lt;tbody&gt;</title>
+</head>
+
+<header>
+  <img class="tce-logo-up select-none" height="50rem" src="/assets/imgs/tcelogo (1).png">
+
+  <ul>
+    <li>
+      <a href="#">Referências</a>
+    </li>
+    <li>
+      <a href="#">Sobre</a>
+    </li>
+  </ul>
+
+</header>
+
+<body>
+  <main>
+    <div class="tag-nav">
+      <h1 class="tag-title">Tag &lt;tbody&gt;</h1>
+      <div class="buttons">
+        <button class="tags-buttons select-none">
+          <a class="btn-link-tags-decoration" href="#">Anterior</a>
+        </button>
+        <button class="tags-buttons select-none">
+          <a class="btn-link-tags-decoration" href="#">Atributos Globais</a>
+          <button class="tags-buttons select-none">
+            <a class="btn-link-tags-decoration" href="#">Proximo</a>
+          </button>
+
+      </div>
+
+
+
+    </div>
+
+    <div class="tag-definition">
+      <div class="definition-title">
+        <h3>Definições e uso</h3>
+      </div>
+
+      <div class="definition-content">
+        <p class="definition-align">
+            A tag &lt;tbody> é usada para agrupar o conteúdo do corpo em uma tabela HTML.
+
+                O elemento &lt;tbody> é usado em conjunto com os elementos &lt;thead> e &lt;tfoot> 
+                    para especificar cada parte de uma tabela (corpo, cabeçalho, rodapé).<br>
+                
+                <br>Os navegadores podem usar esses elementos para permitir a rolagem do corpo
+                da tabela independentemente do cabeçalho e do rodapé. Além disso, ao imprimir 
+                uma tabela grande que abrange várias páginas, esses elementos podem permitir que o 
+                cabeçalho e o rodapé da tabela sejam impressos na parte superior e inferior de cada página.<br>
+                
+                <br>Nota: O elemento &lt;tbody> deve ter uma ou mais tags &lt;tr> dentro dele.<br>
+                
+               <br> A tag &lt;tbody> deve ser usada no seguinte contexto: Como filho de um elemento &lt;table>,
+                após qualquer elemento &lt;caption>, &lt;colgroup> e &lt;thead>.<br>
+                
+               <br> Dica: Os elementos &lt;thead>, &lt;tbody> e &lt;tfoot> não afetarão o layout da tabela por padrão. 
+                No entanto, você pode usar CSS para estilizar esses elementos (veja o exemplo abaixo)! </p>
+
+      </div>
+
+      <div class="exemple-definiton">
+        <div class="exemple-title">
+          <h3>Exemplo</h3>
+        </div>
+      </div>
+
+      <div class="exemple-background">
+        <div class="exemple-code">
+          <pre>
+                        <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt; Tag tbody&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Exemplo de uso da tag tbody&lt;/h1&gt;
+        &lt;table>
+            &lt;thead>
+                &lt;tr>
+                &lt;th>Mês&lt;/th>
+                &lt;th>Economia&lt;/th>
+                &lt;/tr>
+              &lt;/thead>
+            &lt;tbody>
+                &lt;tr>
+                &lt;td>Janero&lt;/td>
+                &lt;td>$100&lt;/td>
+                &lt;/tr>
+              &lt;tr>
+                &lt;td>Fevereiro&lt;/td>
+                &lt;td>$80&lt;/td>
+                &lt;/tr>
+              &lt;/tbody>
+            &lt;tfoot>
+                &lt;tr>
+                &lt;td>Soma&lt;/td>
+                &lt;td>$180&lt;/td>
+                &lt;/tr>
+              &lt;/tfoot>
+            &lt;/table>
+    &lt;/body&gt;
+&lt;/html&gt;
+   </code>
+ </pre>
+        </div>
+
+      </div>
+
+
+      <div class="default-attributes">
+
+
+        <div class="definition-title">
+          <h3>Atributos Padrões</h3>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Atributo</th>
+              <th>Valor</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>onafterprint</td>
+              <td>script</td>
+              <td>Script a ser executado após a impressão do documento</td>
+            </tr>
+            <tr>
+                <td>onbeforeprint</td>
+                <td>script</td>
+                <td>Script a ser executado antes da impressão do documento</td>
+              </tr>
+              <tr>
+                <td>onbeforeunload</td>
+                <td>script</td>
+                <td>Script a ser executado quando o documento estiver prestes a ser descarregado</td>
+              </tr>
+              <tr>
+                <td>onerror</td>
+                <td>script</td>
+                <td>Script a ser executado quando ocorre um erro</td>
+              </tr>
+              <tr>
+                <td>onhashchange</td>
+                <td>script</td>
+                <td>Script a ser executado quando houver alterações na parte âncora de uma URL</td>
+              </tr>
+              <tr>
+                <td>onload</td>
+                <td>script</td>
+                <td>Dispara depois que a página termina de carregar</td>
+              </tr>
+              <tr>
+                <td>onmessage</td>
+                <td>script</td>
+                <td>Script a ser executado quando a mensagem é acionada</td>
+              </tr>
+              <tr>
+                <td>onoffline</td>
+                <td>script</td>
+                <td>Script a ser executado quando o navegador começar a funcionar offline</td>
+              </tr>
+              <tr>
+                <td>ononline</td>
+                <td>script</td>
+                <td>Script a ser executado quando o navegador começar a funcionar online</td>
+              </tr>
+              <tr>
+                <td>onpagehide</td>
+                <td>script</td>
+                <td>
+                    Script a ser executado quando um usuário sai de uma página</td>
+              </tr>
+              <tr>
+                <td>onpageshow</td>
+                <td>script</td>
+                <td>Script a ser executado quando um usuário navega para uma página</td>
+              </tr>
+              <tr>
+                <td>onpopstate</td>
+                <td>script</td>
+                <td>Script a ser executado quando o histórico da janela mudar</td>
+              </tr>
+              <tr>
+                <td>onresize</td>
+                <td>script</td>
+                <td>Dispara quando a janela do navegador é redimensionada</td>
+              </tr>
+              <tr>
+                <td>onstorage</td>
+                <td>script</td>
+                <td>Script a ser executado quando uma área de armazenamento da Web é atualizada</td>
+              </tr>
+              <tr>
+                <td>onunload</td>
+                <td>script</td>
+                <td>Dispara quando uma página é descarregada (ou quando a janela do navegador é fechada)</td>
+              </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+
+
+    </div>
+
+    </div>
+
+  </main>
+</body>
+
+
+</html>
