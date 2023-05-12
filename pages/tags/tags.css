@@ -1,0 +1,123 @@
+.tag-nav {
+    /* border: 0.1rem solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10rem 0 7rem 0;
+    background: linear-gradient(#5F7161, #6D8B74);   
+}
+
+.tag-title {
+    color: #1e1e1e;
+    /* border: 0.1rem solid red; */
+    font-family: 'League Spartan', sans-serif;
+    font-size: 25rem;
+    margin: 10rem 0 0 7rem;
+}
+
+.buttons {
+    /* border: 0.1rem solid red; */
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.tags-buttons {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.1rem;
+    padding: 1.5rem 7rem;
+    background-color: #D9D9D9;
+    border-width: 0;
+    border-radius: 0.8rem;
+}
+
+.btn-link-tags-decoration {
+    text-decoration: none;
+    color: #1e1e1e; 
+}
+
+.tag-definition {
+    background-color: #1e1e1e;
+    height: 50rem;
+}
+
+.definition-title {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 6rem;
+    text-align: center;
+    color: #D9D9D9;
+    padding-top: 10rem;
+    /* border: 0.1rem solid red; */
+
+}
+
+.definition-content {
+    width: 50%;
+    /* height: 5rem; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 5rem auto;
+    background-color: #D9D9D9;
+    /* border: 0.1rem solid red; */
+
+}
+
+.definition-align {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    width: 100%;
+    padding: 3rem;
+    border: 0.1rem solid red;
+    text-align: center;
+}
+
+.exemple-definition {
+    background-color: #5F7161;
+    height: 50rem;
+}
+
+.exemple-title {
+    background-color: #5F7161;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 6rem;
+    text-align: center;
+    color: #D9D9D9;
+    padding: 2rem 0 3rem 0;
+    /* border: 0.1rem solid red; */
+}
+
+.exemple-background {
+    background-color: #5F7161;
+    height: 40rem;
+}
+
+.exemple-code {
+    overflow: scroll;
+    width: 35%;
+    max-height: 40rem;
+    /* height: 33rem; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 auto;
+    background-color: #D9D9D9;
+    /* border: 0.1rem solid red; */
+}
+
+::-webkit-scrollbar {
+    width: 1rem; /* Largura da barra de rolagem */
+    background-color: #5F7161; /* Cor de fundo da barra de rolagem */
+  }
+  
+  /* Estilizando o "polegar" da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #1e1e1e; /* Cor do "polegar" da barra de rolagem */
+  }
+
+  .default-attributes {
+    background-color: #1e1e1e;
+    height: 50rem;
+  }
