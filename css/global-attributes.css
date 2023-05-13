@@ -1,8 +1,83 @@
 .gradient-green-glob-attrib {
-    /* position: relative; */
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 2rem 0 8rem 0;
     background: linear-gradient(#5F7161, #6D8B74);
+}
+
+.content {
+    display: flex;
+    background-color: #1e1e1e;
+}
+
+table tr:nth-child(even){
+    background-color: #5F7161;
+}
+
+table tr:nth-child(odd){
+    background-color: #6D8B74;
+}
+
+.btn-ref {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.1rem;
+    padding: 1rem 5rem;
+    margin-top: 6rem;
+    margin-left: 2.5rem;
+    border-width: 0;
+    border-radius: 0.8rem;
+    background-color: #5F7176;
+}
+
+.content-pad{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.paragrf1 {
+    padding: 7rem 0 1rem 3rem;
+}
+
+.paragrf2 {
+    padding: 4rem 0 1rem 3rem;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 4%;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: white;
+    padding: 4% 2% 0 0;
+}
+
+.attitle {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14rem;
+}
+
+.standartsubtitlespages {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.8rem;
+    color: #1e1e1e;
+    padding: 0 0 3rem 0;
+}
+
+.div-limiter {
+    max-width: 20%;
+}
+
+.btn-link-decoration-ref {
+    text-decoration: none;
+    color: #EEE9DA; 
+}
+
+td {
+    text-align: center;
+    padding: 2rem 0.2rem 2rem 0.8rem;
 }
