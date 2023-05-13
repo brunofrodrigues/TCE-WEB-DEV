@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Rajdhani:wght@300&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     width: 100%;
     position: fixed;
@@ -8,12 +12,12 @@ header {
     display: flex;
     justify-content: space-between;
     z-index: 9999;
-}  
+}
 
 header ul {
     display: flex;
     justify-content: space-between;
-} 
+}
 
 header ul li {
     list-style: none;
@@ -21,7 +25,7 @@ header ul li {
     margin-right: 9rem;
     font-family: 'Open Sans', sans-serif;
     font-size: 2.2rem;
-} 
+}
 
 header ul li a {
     color: #1e1e1e;
@@ -40,83 +44,151 @@ header ul li a:hover {
     background: linear-gradient(#5F7161, #6D8B74);
 }
 
-body{
+body {
     background-color: #1e1e1e;
 }
 
 .suporte {
     /* border: 0.1rem solid red; */
-    width: 51%;
+    /*width: 51%;*/
+    font-family: League Spartan;
+    font-size: 20rem;
 }
 
 div.suporte {
-    color: #1e1e1e; 
+    color: #1e1e1e;
     margin: 20rem 0 0 5.2rem;
 }
 
 .text {
     color: #1e1e1e;
     /* border: 0.1rem solid red; */
-    width: 30%;
-    text-align:left;
+    width: 50%;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: League Spartan;
+    font-size: 3rem;
 }
 
 div.text {
     margin: 2rem 0 0 5.2rem;
 }
 
-.tablenav{
+.tablenav {
     background-color: black;
     border-radius: 15px;
     border-color: black;
-    width: 30%;
-    margin: auto;
+    margin-left: 400px;
     
-
+    
+    font-size: 1.25em;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    overflow: hidden;
+    
 }
 
-thead>tr{
+thead>tr {
     background-color: #5F7161;
     text-align: center;
+    height: 12.25rem;
+    
+    
 }
 
-tbody>tr{
+th {
+    color: white;
+    font-family: League Spartan;
+}
+
+td {
+    width: 12.25rem;
+    color: white;
+    font-family: League Spartan;
+}
+
+tbody>tr {
     background-color: #6D8B74;
     text-align: center;
+    border-radius: 50%;
+    height: 12.25rem;
+   
 }
 
-    tr:nth-child(2n+1)
-    {
-        background-color: #5F7161;
-        
-    }
+tr:nth-child(2n+1) {
+    background-color: #5F7161;
 
-.primeira{
+}
+
+.primeira {
     float: right;
     /*margin-right: 300px;*/
+    font-family: League Spartan;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+    line-height: 2.5rem;
+}
 
-} 
-
-.segundo{
+.segundo {
     /*margin-left: 300px;*/
     margin-top: .5rem;
-}
-.conteudo{
-    border:white thin solid;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /*justify-content: space-around;*/
-}
-.texto{
-    border:white thin solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
-}
-.navegadores{
-    
+    font-family: League Spartan;
+    font-size: 20px;
+    color: white;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
 }
 
+.conteudo {
     
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*justify-content: space-around;*/
+}
+
+.texto {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+
+}
+
+.buttonref {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #6D8B74;
+    color: white;
+    font-family: League Spartan;
+    width: 25rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.buttonref:hover {
+    background-color: #5F7161;
+}
+
+.buttonref:active {
+    background-color: black;
+}
+
+.linkletra {
+    text-decoration: none;
+    color: white;
+}
+
+.linkletra:visited {
+    color: white;
+}
+
+.linkletra:active {
+    color: black;
+}
