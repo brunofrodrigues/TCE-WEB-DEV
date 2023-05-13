@@ -152,35 +152,37 @@ div.gg-child-2 {
 
 .img-about-1 {
     width: 25%;
-    transform: translate(0, 0);
+    transform: translate(-50%, 30%);
 }
 .img-about-2 {
     width: 25%;
-    transform: translate(0, 0);
+    transform: translate(-70%, 0%);
 }
 .img-about-3 {
     width: 25%;
-    transform: translate(0, 0);
+    transform: translate(-100%, 40%);
 }
 .img-about-4 {
+    z-index: 1;
     width: 25%;
-    transform: translate(0, 0);
+    transform: translate(-30%, 0%);
 }
 .img-about-5 {
+    z-index: 1;
     width: 25%;
-    transform: translate(0, 0);
+    transform: translate(-100%, 1%);
 }
 .img-about-6 {
     width: 25%;
-    transform: translate(0, 0);
+    transform: translate(70%, -20%);
 }
 .img-about-7 {
     width: 25%;
-    transform: translate(0, 0);
+    transform: translate(-190%, -10%);
 }
 .img-about-8 {
     width: 25%;
-    transform: translate(0, 0);
+    transform: translate(-80%, -10%);
 }
 
 .img-div {

@@ -79,5 +79,19 @@ p {
 
 td {
     text-align: center;
+    padding: 1.4rem 0.2rem 1.4rem 0.8rem;
+}
+
+.right-black-margin {
+    border-right: 0.5rem dashed #1e1e1e;
+}
+
+th {
+    background-color: #5F7161;
     padding: 2rem 0.2rem 2rem 0.8rem;
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
 }

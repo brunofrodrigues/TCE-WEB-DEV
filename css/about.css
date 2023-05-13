@@ -42,6 +42,7 @@
 }
 
 .team-photo-green {
+    width: 320px;
     border-radius: 100%;
     border-color: #5F7161;
     border-style: solid;
@@ -50,6 +51,7 @@
 }
 
 .team-photo-black {
+    width: 320px;
     border-radius: 100%;
     border-color: #1e1e1e;
     border-style: solid;
