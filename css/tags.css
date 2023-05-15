@@ -1,5 +1,4 @@
 .tag-nav {
-    /* border: 0.1rem solid red; */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -9,14 +8,12 @@
 
 .tag-title {
     color: #1e1e1e;
-    /* border: 0.1rem solid red; */
     font-family: 'League Spartan', sans-serif;
     font-size: 25rem;
     margin: 10rem 0 0 7rem;
 }
 
 .buttons {
-    /* border: 0.1rem solid red; */
     margin-top: 10rem;
     display: flex;
     justify-content: space-evenly;
@@ -40,7 +37,6 @@
 .tag-definition {
     background-color: #1e1e1e;
     padding-bottom: 4rem;
-    /* height: 50rem; */
 }
 
 .definition-title {
@@ -49,20 +45,14 @@
     text-align: center;
     color: #D9D9D9;
     padding-top: 10rem;
-    /* border: 0.1rem solid red; */
 
 }
 
 .definition-content {
     width: 50%;
-    /* height: 5rem; */
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     margin: 5rem auto;
-    /* margin-bottom: 0; */
     background-color: #D9D9D9;
-    /* border: 0.1rem solid red; */
 
 }
 
@@ -71,7 +61,6 @@
     font-size: 2.5rem;
     width: 100%;
     padding: 3rem;
-    border: 0.1rem solid red;
     text-align: center;
 }
 
@@ -87,7 +76,6 @@
     text-align: center;
     color: #D9D9D9;
     padding: 2rem 0 3rem 0;
-    /* border: 0.1rem solid red; */
 }
 
 .exemple-background {
@@ -99,30 +87,24 @@
     overflow: scroll;
     width: 35%;
     max-height: 40rem;
-    /* height: 33rem; */
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     margin: 0 auto;
     background-color: #D9D9D9;
-    /* border: 0.1rem solid red; */
 }
 
 ::-webkit-scrollbar {
-    width: 1rem; /* Largura da barra de rolagem */
-    background-color: #5F7161; /* Cor de fundo da barra de rolagem */
+    width: 1rem;
+    background-color: #5F7161;
   }
   
-  /* Estilizando o "polegar" da barra de rolagem */
   ::-webkit-scrollbar-thumb {
     border-radius: 1rem;
-    background-color: #1e1e1e; /* Cor do "polegar" da barra de rolagem */
+    background-color: #1e1e1e;
   }
 
   .default-attributes {
     padding-bottom: 4rem;
     background-color: #1e1e1e;
-    /*height: 50rem;*/
   }
 
   /*Css da tabela*/
@@ -130,9 +112,6 @@
       width: 40%;
       margin:5% auto;
       margin-bottom:0%;
-      /*margin-right: 20%;
-      margin-left: 30%;
-      margin-top: 5% ;*/ /* Centralizar a tabela na página */
       border-collapse: collapse;
       border:1px solid #5F7161;
 
@@ -144,7 +123,6 @@
   
   th, td {
     padding: 0.8rem;
-    /*text-align: left;*/
     border-bottom: 0.1rem solid #6D8B74;
     font-family: 'Open Sans', sans-serif;
   }
@@ -155,15 +133,15 @@
 
   }
   
-  th:first-child /*td:first-child*/ {
+  th:first-child{
     min-width: 20%;
   }
   
-  th:nth-child(2) /*td:nth-child(2)*/ {
+  th:nth-child(2){
     min-width: 40%;
   }
   
-  th:nth-child(3)/*td:nth-child(3) */{
+  th:nth-child(3){
     min-width: 45%;
   }
   

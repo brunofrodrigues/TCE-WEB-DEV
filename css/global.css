@@ -4,14 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&display=swap');
 
 ::-webkit-scrollbar {
-    width: 1rem; /* Largura da barra de rolagem */
-    background-color: #5F7161; /* Cor de fundo da barra de rolagem */
+    width: 1rem;
+    background-color: #5F7161;
   }
-  
-  /* Estilizando o "polegar" da barra de rolagem */
+
   ::-webkit-scrollbar-thumb {
     border-radius: 1rem;
-    background-color: #1e1e1e; /* Cor do "polegar" da barra de rolagem */
+    background-color: #1e1e1e;
   }
   
 * {
@@ -91,9 +90,25 @@ body {
 
 footer {
     background-color: #1e1e1e;
-    /* padding: 1.875rem; */
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.tce-logo-footer {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.h3-footer {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+    
+}
+
+.h3-footer:hover {
+    text-decoration: underline;
 }
 

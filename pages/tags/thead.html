@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tag &lt;fieldset&gt;</title>
+  <title>Tag &lt;thead&gt;</title>
 </head>
 
 <header>
@@ -28,13 +28,14 @@
 <body>
   <main>
     <div class="tag-nav">
-      <h1 class="tag-title">Tag &lt;fieldset&gt;</h1>
+      <h1 class="tag-title">Tag &lt;thead&gt;</h1>
       <div class="buttons">
         <button class="tags-buttons select-none">
           <a class="btn-link-tags-decoration" href="#">Anterior</a>
         </button>
         <button class="tags-buttons select-none">
-          <a class="btn-link-tags-decoration" href="#">Atributos Globais</a>
+            <a class="btn-link-tags-decoration" href="#">Atributos Globais</a>
+        </button>
           <button class="tags-buttons select-none">
             <a class="btn-link-tags-decoration" href="#">Proximo</a>
           </button>
@@ -52,8 +53,7 @@
 
       <div class="definition-content">
         <p class="definition-align">
-            A tag &lt;fieldset&gt; é usada para agrupar elementos relacionados em um formulário. <br>
-           <br> A tag &lt;fieldset&gt; desenha uma caixa ao redor dos elementos relacionados.</p>
+          A tag &lt;thead&gt; é usada para agrupar o conteúdo do cabeçalho em uma tabela HTML. </p>
 
       </div>
 
@@ -69,26 +69,24 @@
                         <code>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
-    &lt;head&gt;
-        &lt;title&gt; Tag fieldset&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;Exemplo de uso da tag fieldse&lt;/h1&gt;
-        &lt;form action="/action_page.php">
-        &lt;fieldset>
-        &lt;legend>Personalidade:&lt;/legend>
-        &lt;label for="pname">Primeiro nome:&lt;/label>
-        &lt;input type="text" id="pnome" nome="pnome">&lt;br>&lt;br>
-        &lt;label for="lnome">Sobrenome:&lt;/label>
-        &lt;input type="text" id="lnome" nome="lnome">&lt;br>&lt;br>
-        &lt;label for="email">Email:&lt;/label>
-        &lt;input type="email" id="email" nome="email">&lt;br>&lt;br>
-        &lt;label for="aniversário">Aniversário:&lt;/label>
-        &lt;input type="data" id="aniversário" name="aniversário">&lt;br>&lt;br>
-        &lt;input type="submit" value="Submeter">
-        &lt;/fieldset>
-        &lt;/form>
-    &lt;/body&gt;
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;ID&lt;/th&gt;
+            &lt;th&gt;Produto&lt;/th&gt;
+            &lt;th&gt;Preço&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;1&lt;/td&gt;
+            &lt;td&gt;Melancia&lt;/td&gt;
+            &lt;td&gt;R$30&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+    &lt;/tfoot&gt;
+  &lt;/table&gt;
 &lt;/html&gt;
    </code>
  </pre>
@@ -113,20 +111,10 @@
           </thead>
           <tbody>
             <tr>
-              <td>disabled</td>
-              <td>disabled</td>
-              <td>Especifica que um grupo de elementos de formulário relacionados deve ser desabilitado</td>
+              <td>.</td>
+              <td>.</td>
+              <td>.</td>
             </tr>
-            <tr>
-                <td>form</td>
-                <td>form_id</td>
-                <td>Especifica a qual formulário o conjunto de campos pertence</td>
-              </tr>
-              <tr>
-                <td>name</td>
-                <td>text</td>
-                <td>Especifica um nome para o fieldset</td>
-              </tr>
 
           </tbody>
         </table>
@@ -149,6 +137,4 @@
     </div>
 </footer>
 </body>
-
-
 </html>

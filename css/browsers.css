@@ -4,38 +4,6 @@ html {
     scroll-behavior: smooth;
 }
 
-header {
-    width: 100%;
-    position: fixed;
-    padding: 2rem 0 2rem 5rem;
-    background-color: #5F7161;
-    display: flex;
-    justify-content: space-between;
-    z-index: 9999;
-}
-
-header ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-header ul li {
-    list-style: none;
-    margin-top: 0.6rem;
-    margin-right: 9rem;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.2rem;
-}
-
-header ul li a {
-    color: #1e1e1e;
-    text-decoration: none;
-}
-
-header ul li a:hover {
-    text-decoration: underline;
-}
-
 .gradient-green {
     display: flex;
     flex-direction: column;
@@ -80,6 +48,7 @@ div.text {
     border-radius: 15px;
     border-color: black;
     margin-left: 400px;
+    margin-bottom: 10rem;
     
     
     font-size: 1.25em;
@@ -160,7 +129,7 @@ tr:nth-child(2n+1) {
 
 }
 
-.buttonref {
+/* .buttonref {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
@@ -170,7 +139,17 @@ tr:nth-child(2n+1) {
     width: 25rem;
     font-size: 2rem;
     font-weight: 600;
+} */
+
+.buttonref {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.1rem;
+    padding: 1.5rem 7rem;
+    background-color: #6D8B74;
+    border-width: 0;
+    border-radius: 0.8rem;
 }
+   
 
 .buttonref:hover {
     background-color: #5F7161;
