@@ -69,13 +69,13 @@ thead>tr {
 }
 
 th {
-    color: white;
+    color: #D9D9D0;
     font-family: League Spartan;
 }
 
 td {
     width: 12.25rem;
-    color: white;
+    color: #D9D9D0;
     font-family: League Spartan;
 }
 
@@ -95,9 +95,9 @@ tr:nth-child(2n+1) {
 .primeira {
     float: right;
     /*margin-right: 300px;*/
-    font-family: League Spartan;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    color: white;
+    color: #D9D9D0;
     margin-bottom: 50px;
     line-height: 2.5rem;
 }
@@ -105,9 +105,9 @@ tr:nth-child(2n+1) {
 .segundo {
     /*margin-left: 300px;*/
     margin-top: .5rem;
-    font-family: League Spartan;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    color: white;
+    color: #D9D9D0;
     line-height: 2.5rem;
     margin-bottom: 2rem;
 }
@@ -161,11 +161,11 @@ tr:nth-child(2n+1) {
 
 .linkletra {
     text-decoration: none;
-    color: white;
+    color: #D9D9D0;
 }
 
 .linkletra:visited {
-    color: white;
+    color: #D9D9D0;
 }
 
 .linkletra:active {
