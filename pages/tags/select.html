@@ -1,12 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/tags.css">
+  <link rel="shortcut icon" href="/assets/imgs/tcelogo-favicon.png" type="image/x-icon" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tag &lt;select&gt;</title>
 </head>
+
+<header>
+  <img class="tce-logo-up select-none" height="50rem" src="/assets/imgs/tcelogo (1).png">
+
+  <ul>
+    <li>
+      <a href="/pages/references.html">Referências</a>
+    </li>
+    <li>
+      <a href="/pages/about.html">Sobre</a>
+    </li>
+  </ul>
+
+</header>
+
 <body>
+  <main>
+    <div class="tag-nav">
+      <h1 class="tag-title">Tag &lt;select&gt;</h1>
+      <div class="buttons">
+        <button class="tags-buttons select-none">
+          <a class="btn-link-tags-decoration" href="#">Anterior</a>
+        </button>
+        <button class="tags-buttons select-none">
+          <a class="btn-link-tags-decoration" href="#">Atributos Globais</a>
+          <button class="tags-buttons select-none">
+            <a class="btn-link-tags-decoration" href="#">Proximo</a>
+          </button>
+
+      </div>
+
+
+
+    </div>
+
+    <div class="tag-definition">
+      <div class="definition-title">
+        <h3>Definições e uso</h3>
+      </div>
+
+      <div class="definition-content">
+        <p class="definition-align">
+          O &lt;select&gt; elemento é usado para criar uma lista suspensa. <br> 
+          O &lt;select&gt; elemento é usado com mais frequência 
+          em um formulário para coletar a entrada do usuário.<br>
+
+          <br> O name atributo é necessário para fazer referência aos dados do formulário após o envio do formulário 
+          (se você omitir o nameatributo, nenhum dado da lista suspensa será enviado).<br>
+        <br>O id atributo é necessário para associar a lista suspensa a um rótulo.<br>
+        <br>As tags &lt;option&gt; dentro do &lt;select&gt;elemento 
+        definem as opções disponíveis na lista suspensa.<br>
+        <br>Dica: Sempre adicione a tag &lt;label&gt; para melhores práticas de acessibilidade!
+           
+      </div>
+
+      <div class="exemple-definiton">
+        <div class="exemple-title">
+          <h3>Exemplo</h3>
+        </div>
+      </div>
+
+      <div class="exemple-background">
+        <div class="exemple-code">
+          <pre>
+                        <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+&lt;h1&gt; Selecione o elemento &lt;/h1&gt;
+&lt;p&gt; O elemento select é usado para criar uma lista suspensa. &lt;/p&gt;
+&lt;form action="/action_page.php"&gt;
+&lt;label for="cars"&gt;Escolha um carro:&lt;/label&gt;
+    &lt;select name="carro" id="carro"&gt;
+        &lt;option value ="volvo"&gt; Volvo &lt;/option&gt;
+        &lt;option value ="saab"&gt; Saab &lt;/option&gt;
+        &lt;option value ="opel"&gt; Opel &lt;/option&gt;
+        &lt;option value ="audi"&gt; Audi &lt;/option&gt;
+        &lt;/select&gt;
+        &lt;br&gt; &lt;br&gt;
+        &lt;input type="submit" value="Submit"&gt;
+        &lt;/form&gt;
+        &lt;p&gt; Clique no botão "Enviar" e os dados do formulário 
+        serão enviados para uma página no
+        servidor chamado "action_page.php". &lt;/p&gt; 
+    &lt;/body&gt;
+&lt;/html&gt;
+   </code>
+ </pre>
+        </div>
+
+      </div>
+
+
+      <div class="default-attributes">
+
+
+        <div class="definition-title">
+          <h3>Atributos Padrões</h3>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Atributo</th>
+              <th>Valor</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>autofocus</td>
+              <td>autofocus</td>
+              <td>Especifica que a lista suspensa deve obter 
+                foco automaticamente quando a página for carregada</td>
+            </tr>
+            <tr>
+                <td>disabled</td>
+                <td>disabled</td>
+                <td>Especifica que uma lista suspensa deve ser desativada</td>
+              </tr>
+              <tr>
+                <td>form</td>
+                <td>form_id</td>
+                <td>Define a qual formulário a lista suspensa pertence</td>
+              </tr>
+              <tr>
+                <td>multiple</td>
+                <td>multiple</td>
+                <td>Especifica que várias opções podem ser selecionadas ao mesmo tempo</td>
+              </tr>
+              <tr>
+                <td>name</td>
+                <td>name</td>
+                <td>Define um nome para a lista suspensa</td>
+              </tr>
+              <tr>
+                <td>required</td>
+                <td>required</td>
+                <td>Especifica que o usuário deve selecionar 
+                    um valor antes de enviar o formulário</td>
+              </tr>
+              <tr>
+                <td>size</td>
+                <td>number</td>
+                <td>Define o número de opções visíveis em uma lista suspensa</td>
+              </tr>
+
+
+              
+
+          </tbody>
+          
+        </table>
+      </div>
+
+
+
+    </div>
+
+    </div>
+
+  </main>
+  <footer>
+    <img class="tce-logo-footer" src="/assets/imgs/tcelogoup.png" alt="Logo do TCE">
     
+    <div>
+        <h3 class="h3-footer"><a class="btn-link-decoration" href="/pages/references.html">Referências</a></h3>
+        <h3 class="h3-footer"><a class="btn-link-decoration" href="/pages/about.html">Sobre</a></h3>
+
+    </div>
+</footer>
 </body>
+
+
 </html>
