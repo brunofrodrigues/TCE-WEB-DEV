@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<head>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/tags.css">
+    <link rel="shortcut icon" href="/assets/imgs/tcelogo-favicon.png" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag &lt;picture&gt;</title>
+</head>
+
+
+<header>
+    <img class="tce-logo-up select-none" height="50rem" src="/assets/imgs/tcelogo (1).png">
+
+
+    <ul>
+        <li>
+            <a href="/pages/references.html">Referências</a>
+        </li>
+        <li>
+            <a href="/pages/about.html">Sobre</a>
+        </li>
+    </ul>
+
+
+</header>
+
+
+<body>
+    <main>
+        <div class="tag-nav">
+            <h1 class="tag-title">Tag &lt;picture&gt;</h1>
+            <div class="buttons">
+                <button class="tags-buttons select-none">
+                    <a class="btn-link-tags-decoration" href="#">Anterior</a>
+                </button>
+                <button class="tags-buttons select-none">
+                    <a class="btn-link-tags-decoration" href="#">Atributos Globais</a>
+                </button>
+                <button class="tags-buttons select-none">
+                    <a class="btn-link-tags-decoration" href="#">Próximo</a>
+                </button>
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+        <div class="tag-definition">
+            <div class="definition-title">
+                <h3>Definições e uso</h3>
+            </div>
+
+
+            <div class="definition-content">
+                <p class="definition-align">
+                    A tag HTML &lt;picture&gt; permite exibir diferentes imagens com base no dispositivo ou tamanho da
+                    tela.
+                    Ela é usada para fornecer imagens otimizadas para diferentes cenários, melhorando o desempenho e
+                    a qualidade visual. <br>
+                    Contém duas tags apenas, duas ou mais tags &lt;source&gt; e uma tag &lt;image&gt;. <br>
+                    A função do elemento &lt;source&gt; é indicar ao navegador quais imagens estão disponíveis e qual delas deve ser usada, dependendo das condições de mídia especificadas.
+                    Se nenhuma das tags &lt;source&gt; atender às condições, o navegador usará a imagem definida na tag &lt;image&gt; dentro da tag &lt;picture&gt; como fallback.
+                </p>
+
+
+            </div>
+
+
+            <div class="exemple-definiton">
+                <div class="exemple-title">
+                    <h3>Exemplo</h3>
+                </div>
+            </div>
+
+
+            <div class="exemple-background">
+                <div class="exemple-code">
+                    <pre>
+                    <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Exemplo de Tag Picture&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Exemplo de Tag Picture&lt;/h1&gt;
+                           
+  &lt;picture&gt;
+    &lt;source srcset="imagem-grande.jpg" media="(min-width: 1200px)"&gt;
+    &lt;source srcset="imagem-media.jpg" media="(min-width: 800px)"&gt;
+    &lt;source srcset="imagem-pequena.jpg"&gt;
+    &lt;img src="imagem-padrao.jpg" alt="Imagem de exemplo"&gt;
+  &lt;/picture&gt;
+                           
+&lt;/body&gt;
+&lt;/html&gt;
+                           
+   </code>
+ </pre>
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="default-attributes">
+
+
+
+
+                <div class="definition-title">
+                    <h3>Atributos Padrões</h3>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Atributo</th>
+                            <th>Valor</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>.</td>
+                            <td>.</td>
+                            <td>.</td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+        </div>
+
+
+    </main>
+    <footer>
+        <img class="tce-logo-footer" src="/assets/imgs/tcelogoup.png" alt="Logo do TCE">
+
+
+        <div>
+            <h3 class="h3-footer"><a class="btn-link-decoration" href="/pages/references.html">Referências</a></h3>
+            <h3 class="h3-footer"><a class="btn-link-decoration" href="/pages/about.html">Sobre</a></h3>
+
+
+        </div>
+    </footer>
+</body>
+
+
+</html>
+
