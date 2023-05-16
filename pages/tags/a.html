@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/tags.css">
+    <link rel="shortcut icon" href="/assets/imgs/tcelogo-favicon.png" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag &lt;a&gt;</title>
+</head>
+
+<header>
+    <img class="tce-logo-up select-none" height="50rem" src="/assets/imgs/tcelogo (1).png">
+
+    <ul>
+        <li>
+            <a href="/pages/references.html"> Referências </a>
+        </li>
+        <li>
+            <a href="/pages/about.html"> Sobre </a>
+        </li>
+    </ul>
+
+</header>
+
+
+<body>
+    <main>
+        <div class="tag-nav">
+            <h1 class="tag-title">Tag &lt;a&gt;</h1>
+            <div class="buttons">
+                <button class="tags-buttons select-none">
+                    <a class="btn-link-tags-decoration" href="#"> Anterior </a>
+                </button>
+                <button class="tags-buttons select-none">
+                    <a class="btn-link-tags-decoration" href="#"> Atributos Globais </a>
+                </button>
+                <button class="tags-buttons select-none">
+                    <a class="btn-link-tags-decoration" href="#"> Próximo </a>
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="tag-definition">
+            <div class="definition-title">
+                <h3> Definições e uso </h3>
+            </div>
+
+            <div class="definition-content">
+                <p class="definition-align">
+                    A tag &lt;a&gt; é usada para criar um hyperlink em uma página web. </p>
+
+            </div>
+
+            <div class="exemple-definiton">
+                <div class="exemple-title">
+                    <h3>Exemplo</h3>
+                </div>
+            </div>
+
+            <div class="exemple-background">
+                <div class="exemple-code">
+                    <pre>
+                        <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title>Exemplo de tag &lt;a&gt;&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Meu site&lt;/h1&gt;
+        &lt;p&gt;Bem-vindo ao meu site! Aqui estão alguns links úteis:&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="https://www.facebook.com"&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="https://www.youtube.com"&gt;YouTube&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;Você também pode me encontrar em:&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href="https://www.linkedin.com"&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="https://www.twitter.com"&gt;Twitter&lt;/a&gt&lt;/li&gt&gt;
+            &lt;li&gt;&lt;a href="https://www.instagram.com"&gt;Instagram&lt;/a&gt&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+                            
+   </code>
+ </pre>
+                </div>
+
+            </div>
+
+
+            <div class="default-attributes">
+
+
+                <div class="definition-title">
+                    <h3>Atributos Padrões</h3>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Atributo</th>
+                            <th>Valor</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>download</td>
+                            <td>filename</td>
+                            <td>Especifica que o elemento vai ser instalado quando o hyperlink é clicado pelo usuário
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>href</td>
+                            <td>URL</td>
+                            <td>Especifica o URL da página para qual o link leva</td>
+                        </tr>
+
+                        <tr>
+                            <td>hreflang</td>
+                            <td>languague_code</td>
+                            <td>Especifica a língua da página de destino do hyperlink</td>
+                        </tr>
+
+                        <tr>
+                            <td>media</td>
+                            <td>media_query</td>
+                            <td>Especifica a midia/dispositivo para qual a página de destino do hyperlink foi optimizada
+                            </td>
+                        </tr>
+                
+                        <tr>
+                            <td>ping</td>
+                            <td>list_of_URLs</td>
+                            <td>Especificas uma lista separada por espaço de URLs para as quais, quando o link for
+                                seguido, solicitações POST com o corpo "ping" serão enviadas pelo navegador (em segundo
+                                plano). Geralmente usado para rastreamento.</td>
+                        </tr>
+
+                        <tr>
+                            <td>referrepolicy</td>
+                            <td>no-referrer<br>
+                                no-referrer-when-downgrade<br>
+                                origin<br>
+                                origin-when-cross-origin<br>
+                                same-origin<br>
+                                strict-origin-when-cross-origin<br>
+                                unsafe-url</td>
+                            <td>Especifica qual informação de referência (referrer) enviar com o link.</td>
+                        </tr>
+
+                        <tr>
+                            <td>rel</td>
+                            <td>alternate<br>
+                                author<br>
+                                bookmark<br>
+                                external<br>
+                                help<br>
+                                license<br>
+                                next<br>
+                                nofollow<br>
+                                noreferrer<br>
+                                noopener<br>
+                                prev<br>
+                                search<br>
+                                tag</td>
+                            <td>Especifica a relação entre o documento atual e o documento vinculado.</td>
+                        </tr>
+
+                        <tr>
+                            <td>target</td>
+                            <td>_blank<br>
+                                _parent<br>
+                                _self<br>
+                                _top</td>
+                            <td>Especifica onde abrir o documento vinculado.</td>
+                        </tr>
+
+                        <tr>
+                            <td>type</td>
+                            <td>media_type</td>
+                            <td>Especifica o tipo de mídia do documento vinculado.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+        </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <img class="tce-logo-footer" src="/assets/imgs/tcelogoup.png" alt="Logo do TCE">
+
+        <div>
+            <h3 class="h3-footer"><a class="btn-link-decoration" href="/pages/references.html">Referências</a></h3>
+            <h3 class="h3-footer"><a class="btn-link-decoration" href="/pages/about.html">Sobre</a></h3>
+
+        </div>
+    </footer>
+</body>
+
+</html>
