@@ -19,7 +19,7 @@ table tr:nth-child(odd){
     background-color: #6D8B74;
 }
 
-.btn-ref {
+/* .btn-ref {
     font-family: 'Open Sans', sans-serif;
     font-size: 2.1rem;
     padding: 1rem 5rem;
@@ -28,6 +28,25 @@ table tr:nth-child(odd){
     border-width: 0;
     border-radius: 0.8rem;
     background-color: #5F7176;
+} */
+
+.buttonref {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.1rem;
+    padding: 1.5rem 7rem;
+    background-color: #6D8B74;
+    border-width: 0;
+    border-radius: 0.8rem;
+    margin: 3rem 0 0 3rem;
+}
+   
+
+.buttonref:hover {
+    background-color: #5F7161;
+}
+
+.buttonref:active {
+    background-color: black;
 }
 
 .content-pad{

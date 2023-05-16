@@ -90,6 +90,25 @@ div.gg-child-2 {
 
 }
 
+.buttonref {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.1rem;
+    padding: 1.5rem 7rem;
+    background-color: #1e1e1e;
+    border-width: 0;
+    border-radius: 0.8rem;
+}
+   
+
+.buttonref:hover {
+    background-color: #443d3d;
+}
+
+.buttonref:active {
+    background-color: black;
+}
+
+
 #black-bar-2 {
     margin-top: 75rem;
     background-color: #1e1e1e;
@@ -129,6 +148,17 @@ div.gg-child-2 {
     border-radius: 0.8rem;
     background-color: #5F7176;
 }
+   
+
+.btn-about:hover {
+    background-color: #7896a1;
+}
+
+.btn-about:active {
+    background-color: black;
+}
+
+
 
 .bb2-child-2 {
     width: 50%;
@@ -197,7 +227,7 @@ div.gg-child-2 {
 
 .img-figma {
     width: 6%;
-    transform: translate(24rem, 12rem);
+    transform: translate(210%, 110%);
 }
 
 .desc-tools {
@@ -212,7 +242,8 @@ div.gg-child-2 {
 }
 
 .acess-btn-figma {
-    transform: translate(550%, -100%);
+    margin-left: 73%;
+    transform: translateY(-100%);
 }
 
 .gb-child-3 {
@@ -247,12 +278,12 @@ div.gg-child-2 {
 
 #img-vscode {
     width: 5%;
-    margin-left: 42rem;
-    transform: translateY(-3rem);
+    margin-left: 22%;
+    transform: translateY(-30%);
 }
 
 #img-github {
     width: 5%;
-    margin-left: 139rem;
-    transform: translateY(-12rem);
+    margin-left: 72.5%;
+    transform: translateY(-140%);
 }
