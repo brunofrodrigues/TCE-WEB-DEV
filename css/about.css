@@ -39,6 +39,7 @@
     background-color:#5F7161;
     width: 100%;
     display: flex;
+    padding-left: 6rem;
 }
 
 .team-photo-green {
