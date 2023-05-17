@@ -40,9 +40,9 @@ div.text {
 
 .tablenav {
     background-color: black;
-    border-radius: 15px;
+    border-radius: 0.9rem;
     border-color: black;
-    margin-left: 400px;
+    margin-left: 25rem;
     margin-bottom: 10rem;
     
     
@@ -91,7 +91,7 @@ tr:nth-child(2n+1) {
     float: right;
     font-size: 2rem;
     color: #D9D9D0;
-    margin-bottom: 50px;
+    margin-bottom: 3rem;
     line-height: 2.5rem;
 }
 
