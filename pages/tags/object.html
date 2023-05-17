@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tag &lt;ul&gt;</title>
+  <title>Tag &lt;object&gt;</title>
 </head>
 
 
@@ -29,7 +29,7 @@
       
   <main>
     <div class="tag-nav">
-      <h1 class="tag-title">Tag &lt;ul&gt;</h1>
+      <h1 class="tag-title">Tag &lt;object&gt;</h1>
       <div class="buttons">
         <button class="tags-buttons select-none">
           <a class="btn-link-tags-decoration" href="map.html">Anterior</a>
@@ -54,7 +54,13 @@
 
       <div class="definition-content">
         <p class="definition-align">
-          A tag &lt;ul&gt; define uma lista não ordenada (marcada). <br> Use a tag &lt;ul&gt; junto com a tag &lt;li&gt; para criar listas não ordenadas.
+          A tag &lt;object&gt; define um contêiner para um recurso externo.
+          <br> O recurso externo pode ser uma página da Web, uma imagem, um reprodutor de mídia ou um aplicativo</br> plug-in.
+          <br> Para incorporar uma imagem, é melhor usar a tag &lt;img&gt;.
+          </br>Para incorporar HTML, é melhor usar a tag  &lt;iframe&gt;.
+          <br> Para incorporar vídeo ou áudio, é melhor usar as tags  &lt;video&gt; e  &lt;audio&gt;.
+          
+          
         </p>
 
       </div>
@@ -72,16 +78,12 @@
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
-        &lt;title&gt;Tag ul&lt;/title&gt;
+        &lt;title&gt;Tag object&lt;/title&gt;
     &lt;/head&gt;
     &lt;body&gt;
-    &lt;h1&gt;O elemento ul&lt;/h1&gt;
+    &lt;h1&gt;O elemento object&lt;/h1&gt;
 
-    &lt;ul&gt;
-    &lt;li &gt;Café&lt;/li&gt;
-    &lt;li &gt;Chá&lt;/li &gt;
-    &lt;li &gt;Leite&lt;/li &gt;
-    &lt;/ul&gt;
+    &lt;object data="pic_trulli.jpg" width="300" height="200"&gt;&lt;/object &gt;
 
     &lt;/body&gt;
 &lt;/html&gt;
@@ -118,34 +120,35 @@
                 <td>Especifica a qual formulário o objeto pertence</td>
               </tr>
               <tr>
-                <td>.</td>
-                <td>.</td>
-                <td>.</td>
+                <td>height</td>
+                <td>pixels</td>
+                <td>Especifica a altura do objeto</td>
               </tr>
               <tr>
-                <td>.</td>
-                <td>.</td>
-                <td>.</td>
+                <td>name</td>
+                <td>name</td>
+                <td>Especifica um nome para o objeto
+                </td>
               </tr>
               <tr>
-                <td>.</td>
-                <td>.</td>
-                <td>.</td>
+                <td>type</td>
+                <td>media_type</td>
+                <td>Especifica o tipo de mídia dos dados especificados no atributo de dados</td>
               </tr>
               <tr>
-                <td>.</td>
-                <td>.</td>
-                <td>.</td>
+                <td>typemustmatch</td>
+                <td>true/false</td>
+                <td>Especifica se o atributo type e o conteúdo real do recurso devem corresponder para serem exibidos</td>
               </tr>
               <tr>
-                <td>.</td>
-                <td>.</td>
-                <td>.</td>
+                <td>usemap</td>
+                <td>#mapname</td>
+                <td>Especifica o nome de um mapa de imagem do lado do cliente a ser usado com o objeto</td>
               </tr>
               <tr>
-                <td>.</td>
-                <td>.</td>
-                <td>.</td>
+                <td>width</td>
+                <td>pixels</td>
+                <td>Especifica a largura do objeto</td>
               </tr>
              
 
