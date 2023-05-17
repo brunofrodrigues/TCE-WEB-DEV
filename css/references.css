@@ -1,0 +1,90 @@
+a{
+    color:white;
+}
+button a {
+    font-family: 'Open Sans', sans-serif;
+    font-size:2rem;
+}
+
+#links{
+    /* talvez seja desnecessário */
+    color:white;
+}
+
+.gradient-green-references{
+    padding:10%;
+    /* div que tem o titulo e o subtitulo, verdinha do início */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* padding: 10rem 0 20rem 0; */
+    background: linear-gradient(#5F7161, #6D8B74);
+}
+.title-ref {
+    font-family: "League Spartan";
+    font-size: 17rem;
+    color:#1e1e1e;
+}
+.subtitle-ref {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    color:#1e1e1e;
+}
+.content {
+    background-color: #1e1e1e;
+    /* div que tem dentro os links das letras, o texto e a table, fundo preto */
+    /* equivalente a content tbm em global attributes */
+}
+.link-initials {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+
+}
+.text-ref {
+    font-family: 'Open Sans', sans-serif;
+    font-size:2rem;
+    color:white;
+    max-width: 20%;
+    margin:5%;
+    float:left;
+}
+.button-browsers{
+    border-width: 0;
+    background-color: #6D8B74;
+    padding:3% 35%;
+}
+.button-browsers:hover {
+    background-color: #5F7161;
+}
+
+.button-browsers:active {
+    background-color: black;
+}
+.table-ref{
+    width: 65%;
+    vertical-align: top;
+    border-collapse: collapse;
+}
+td {
+    padding: 20px;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+tr:nth-child(even) {
+    background-color: #6D8B74;
+}
+
+tr:nth-child(odd) {
+    background-color: #5F7161;
+}
+
+td:first-child {
+    border-right: 2px dashed #000000;
+}
+/* formatação tabelas 
+ */
