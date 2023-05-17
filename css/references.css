@@ -5,19 +5,15 @@ button a {
     font-family: 'Open Sans', sans-serif;
     font-size:2rem;
 }
-
 #links{
-    /* talvez seja desnecessário */
     color:white;
 }
 
 .gradient-green-references{
     padding:10%;
-    /* div que tem o titulo e o subtitulo, verdinha do início */
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* padding: 10rem 0 20rem 0; */
     background: linear-gradient(#5F7161, #6D8B74);
 }
 .title-ref {
@@ -32,8 +28,6 @@ button a {
 }
 .content {
     background-color: #1e1e1e;
-    /* div que tem dentro os links das letras, o texto e a table, fundo preto */
-    /* equivalente a content tbm em global attributes */
 }
 .link-initials {
     padding: 30px;
@@ -86,5 +80,3 @@ tr:nth-child(odd) {
 td:first-child {
     border-right: 2px dashed #000000;
 }
-/* formatação tabelas 
- */
