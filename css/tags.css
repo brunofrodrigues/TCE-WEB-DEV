@@ -29,9 +29,17 @@
     border-radius: 0.8rem;
 }
 
+.tags-buttons:hover {
+  background-color: #aca7a7;
+}
+
 .btn-link-tags-decoration {
     text-decoration: none;
     color: #1e1e1e; 
+}
+
+.btn-link-tags-decoration:active {
+  color: #D9D9D9;
 }
 
 .tag-definition {
