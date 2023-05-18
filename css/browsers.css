@@ -12,21 +12,18 @@ body {
     background-color: #1e1e1e;
 }
 
-.suporte {
-    /* border: 0.1rem solid red; */
-    /*width: 51%;*/
+.support-div {
     font-family: League Spartan;
     font-size: 20rem;
 }
 
-div.suporte {
+div.support-div {
     color: #1e1e1e;
     margin: 20rem 0 0 5.2rem;
 }
 
 .text {
     color: #1e1e1e;
-    /* border: 0.1rem solid red; */
     width: 50%;
     text-align: left;
     font-size: 2rem;
@@ -87,7 +84,7 @@ tr:nth-child(2n+1) {
 
 }
 
-.primeira {
+.first {
     float: right;
     font-size: 2rem;
     color: #D9D9D0;
@@ -95,7 +92,7 @@ tr:nth-child(2n+1) {
     line-height: 2.5rem;
 }
 
-.segundo {
+.second {
     font-size: 2rem;
     margin-top: .5rem;
     color: #D9D9D0;
@@ -103,15 +100,14 @@ tr:nth-child(2n+1) {
     margin-bottom: 2rem;
 }
 
-.conteudo {
+.content-text {
     
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /*justify-content: space-around;*/
 }
 
-.texto {
+.text-one {
     margin-top: 10rem;
     display: flex;
     flex-direction: column;
@@ -127,7 +123,7 @@ tr:nth-child(2n+1) {
     background-color: #6D8B74;
     border-width: 0;
     border-radius: 0.8rem;
-    margin: 3rem 4rem 0 0;
+    margin: 3rem 12rem 0 0;
 }
    
 
@@ -139,15 +135,20 @@ tr:nth-child(2n+1) {
     background-color: black;
 }
 
-.linkletra {
+.link-word {
     text-decoration: none;
     color: #D9D9D0;
 }
 
-.linkletra:visited {
+.link-word:visited {
     color: #D9D9D0;
 }
 
-.linkletra:active {
+.link-word:active {
     color: black;
+}
+
+:target {
+    padding-top: 10rem;
+    margin-top: -10rem;
 }

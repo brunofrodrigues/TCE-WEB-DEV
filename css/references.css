@@ -45,16 +45,23 @@ button a {
     margin:5%;
     float:left;
 }
-.button-browsers{
-    border-width: 0;
+
+.buttonref {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.1rem;
+    padding: 1.5rem 7rem;
     background-color: #6D8B74;
-    padding:3% 35%;
+    border-width: 0;
+    border-radius: 0.8rem;
+    margin: 1rem 12rem 0 0;
 }
-.button-browsers:hover {
+   
+
+.buttonref:hover {
     background-color: #5F7161;
 }
 
-.button-browsers:active {
+.buttonref:active {
     background-color: black;
 }
 .table-ref{
@@ -79,4 +86,9 @@ tr:nth-child(odd) {
 
 td:first-child {
     border-right: 2px dashed #000000;
+}
+
+:target {
+    padding-top: 10rem;
+    margin-top: -10rem;
 }

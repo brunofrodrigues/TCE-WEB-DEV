@@ -3,13 +3,11 @@
 }
 
 .gg-child-2 {
-    border: 0.1rem solid red;
     width: 30%;
     text-align:left;
 }
 
 .gradient-green-about {
-    /* position: relative; */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -58,7 +56,6 @@
     border-style: solid;
     border-width: 1.5em;
     margin: 2em 4em;
-    /* float: right; */
 }
 
 h4 {
